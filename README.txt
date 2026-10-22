@@ -1,11 +1,12 @@
-THE FIRST WHEELS — INTÉGRATION MARKETPLACE
+THE FIRST WHEELS — MARKETPLACE MULTIVENDEURS (MVP)
 
-1. Dans votre dépôt GitHub, sauvegardez les fichiers actuels.
-2. Remplacez index.html par celui de ce dossier (la navigation Marketplace est ajoutée).
-3. Ajoutez marketplace.html à la racine du même dépôt.
-4. Ne supprimez PAS le dossier assets/ du site existant.
-5. Vérifiez les liens et les filtres.
-
-La marketplace affiche six annonces FICTIVES, pas des véhicules à vendre. Pour les remplacer, modifiez le tableau listings dans marketplace.html. Le contact utilise thefirst.wheels@yahoo.com (adresse issue du site fourni). Les demandes s’ouvrent dans le logiciel de messagerie du visiteur.
-
-GitHub Pages ne convient pas à l’hébergement d’un site principalement commercial / e-commerce : choisir un hébergeur autorisant cette activité avant le lancement commercial.
+1. Conserver les fichiers existants du site, notamment le dossier assets/.
+2. Envoyer marketplace.html et annonces.json à la racine du dépôt.
+3. index.html fourni est celui de la version intégrée précédente ; inutile de le remplacer si déjà publié.
+4. Tester marketplace.html depuis le site. Aucune annonce n’est affichée tant que annonces.json contient [].
+5. Lorsqu’un vendeur remplit le formulaire, son application de messagerie prépare un e-mail à thefirst.wheels@yahoo.com. Le vendeur doit ajouter ses photos et envoyer le message. Aucun formulaire n’est enregistré automatiquement.
+6. Vérifier identité et informations du vendeur, autorisation de publier ses coordonnées et photos, puis ajouter manuellement l’annonce approuvée dans annonces.json. Exemple de format dans EXEMPLE-annonce-ne-pas-publier.json (ne pas publier cet exemple). Le champ approved doit valoir true.
+7. Les photos ne sont pas encore affichées par cette version. Elles peuvent être ajoutées dans une prochaine version avec stockage et modération.
+8. Pas de compte vendeur, base de données, messagerie interne, tableau de bord ni paiement dans cette version.
+9. GitHub Pages n’est pas adapté à l’hébergement d’une activité principalement commerciale. Conserver GitHub pour le code et choisir un hébergeur autorisant l’activité avant lancement commercial.
+10. Avant lancement : mentions légales, politique de confidentialité, modalités de modération, information sur les vendeurs professionnels/particuliers, règles de protection des données et conformité réglementaire applicables en Belgique/UE.

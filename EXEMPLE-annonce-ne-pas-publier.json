@@ -1,0 +1,15 @@
+[
+  {
+    "approved": true,
+    "sellerType": "Particulier",
+    "brand": "Exemple",
+    "model": "À remplacer",
+    "year": 2020,
+    "km": 50000,
+    "fuel": "Essence",
+    "price": 12000,
+    "city": "Bruxelles",
+    "description": "Exemple de format uniquement : ne pas publier sans annonce réelle.",
+    "contactEmail": "vendeur@example.com"
+  }
+]
